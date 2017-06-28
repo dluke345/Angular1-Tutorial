@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en" ng-app="eventsApp">
+<head>
+    <meta charset="utf-8">
+    <!-- base tag tells angular where to start parsing the URL from, since our app is at the root don't need it -->
+    <base href="/AngularProjects/angular1/" />
+    <title>Event Registration</title>
+    <link rel="stylesheet" href="/AngularProjects/angular1/app/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/AngularProjects/angular1/app/css/app.css"/>
+    <link rel="stylesheet" href="/AngularProjects/angular1/app/lib/jquery-ui-1.12.1.custom/jquery-ui.css" />
+</head>
+<body ng-cloak>
+<div class="container">
+    <div class="navbar">
+        <div class="navbar-inner">
+            <ul class="nav">
+                <li><a href="events">Events</a></li>
+                <li><a href="newEvent">Create Event</a></li>
+                <li><a href="editProfile">Edit Profile</a></li>
+                <li><a href="sampleDirective">Sample Directive</a></li>
+                <li><a href="directiveControllerSample">Directive Controller Sample</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div ng-view></div>
+
+</div>
+
+
+<script src="/AngularProjects/angular1/app/lib/jquery.min.js"></script>
+<script src="/AngularProjects/angular1/app/lib/underscore-1.4.4.min.js"></script>
+<script src="/AngularProjects/angular1/app/lib/angular/angular.js"></script>
+<script src="/AngularProjects/angular1/app/lib/angular/angular-resource.js"></script>
+<script src="/AngularProjects/angular1/app/lib/angular/angular-route.min.js"></script>
+<script src="/AngularProjects/angular1/app/js/app.js"></script>
+<script src="/AngularProjects/angular1/app/js/services/GravatarUrlBuilder.js"></script>
+<script src="/AngularProjects/angular1/app/js/directives/gravatar.js"></script>
+<script src="/AngularProjects/angular1/app/js/directives/greeting.js"></script>
+<script src="/AngularProjects/angular1/app/js/controllers/EditEventController.js"></script>
+<script src="/AngularProjects/angular1/app/js/controllers/EventController.js"></script>
+<script src="/AngularProjects/angular1/app/js/controllers/EventListController.js"></script>
+<script src="/AngularProjects/angular1/app/js/controllers/EditProfileController.js"></script>
+<script src="/AngularProjects/angular1/app/js/controllers/SampleDirectiveController.js"></script>
+<script src="/AngularProjects/angular1/app/js/services/EventData.js"></script>
+<script src="/AngularProjects/angular1/app/js/services/calendarHelper.js"></script>
+<script src="/AngularProjects/angular1/app/js/directives/mySample.js"></script>
+<script src="/AngularProjects/angular1/app/js/directives/eventThumbnail.js"></script>
+<script src="/AngularProjects/angular1/app/js/directives/upvote.js"></script>
+<script src="/AngularProjects/angular1/app/js/directives/datekeys.js"></script>
+<script src="/AngularProjects/angular1/app/js/directives/collapsible.js"></script>
+<script src="/AngularProjects/angular1/app/js/directives/datepicker.js"></script>
+<script src="/AngularProjects/angular1/app/js/filters.js"></script>
+<script src="/AngularProjects/angular1/app/lib/bootstrap.min.js"></script>
+
+</body>
+</html>
